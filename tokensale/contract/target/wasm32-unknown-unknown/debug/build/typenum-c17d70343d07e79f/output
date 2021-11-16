@@ -1,0 +1,2 @@
+cargo:rustc-env=TYPENUM_BUILD_CONSTS=/Users/trietnguyen/Documents/Blockchain Development/NEAR_NOV/tokensale/contract/target/wasm32-unknown-unknown/debug/build/typenum-c17d70343d07e79f/out/consts.rs
+cargo:rustc-env=TYPENUM_BUILD_OP=/Users/trietnguyen/Documents/Blockchain Development/NEAR_NOV/tokensale/contract/target/wasm32-unknown-unknown/debug/build/typenum-c17d70343d07e79f/out/op.rs
