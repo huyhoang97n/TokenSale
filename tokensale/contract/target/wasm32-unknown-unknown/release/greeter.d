@@ -1,0 +1,1 @@
+/Users/trietnguyen/Documents/Blockchain\ Development/NEAR_NOV/tokensale/contract/target/wasm32-unknown-unknown/release/greeter.wasm: /Users/trietnguyen/Documents/Blockchain\ Development/NEAR_NOV/tokensale/contract/src/lib.rs

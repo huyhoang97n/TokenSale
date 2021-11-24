@@ -1,27 +1,23 @@
-tokensale Smart Contract
-==================
+# SKILLS token sale NEP141 on NEAR
 
-A [smart contract] written in [Rust] for an app initialized with [create-near-app]
+```sh
+cargo build --all --target wasm32-unknown-unknown --release
+cp target/wasm32-unknown-unknown/release/*.wasm ./res/
+near dev-deploy --wasmFile res/greeter.wasm
+export ID=contract_id
+```
 
+## Demo flow
+```sh
+near call $ID new '{"price": "20000000000000000000000", "issuer_name": "issuer"}' --accountId $CONTRACT_OWNER
 
-Quick Start
-===========
+near call $ID send_tokens_to_core_team '{}' --accountId $CONTRACT_OWNER
 
-Before you compile this code, you will need to install Rust with [correct target]
+near call $ID begin_sale '{}' --accountId $CONTRACT_OWNER
+```
 
+## Login to another Account to buy tokens
+```sh
+near call $ID buy_tokens '{}' --accountId $CONTRACT_OWNER --deposit 1
+```
 
-Exploring The Code
-==================
-
-1. The main smart contract code lives in `src/lib.rs`. You can compile it with
-   the `./compile` script.
-2. Tests: You can run smart contract tests with the `./test` script. This runs
-   standard Rust tests using [cargo] with a `--nocapture` flag so that you
-   can see any debug info you print to the console.
-
-
-  [smart contract]: https://docs.near.org/docs/develop/contracts/overview
-  [Rust]: https://www.rust-lang.org/
-  [create-near-app]: https://github.com/near/create-near-app
-  [correct target]: https://github.com/near/near-sdk-rs#pre-requisites
-  [cargo]: https://doc.rust-lang.org/book/ch01-03-hello-cargo.html

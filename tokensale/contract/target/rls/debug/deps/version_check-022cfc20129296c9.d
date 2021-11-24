@@ -1,0 +1,10 @@
+/Users/trietnguyen/Documents/Blockchain Development/NEAR_NOV/tokensale/contract/target/rls/debug/deps/version_check-022cfc20129296c9.rmeta: /Users/trietnguyen/.cargo/registry/src/github.com-1ecc6299db9ec823/version_check-0.9.3/src/lib.rs /Users/trietnguyen/.cargo/registry/src/github.com-1ecc6299db9ec823/version_check-0.9.3/src/version.rs /Users/trietnguyen/.cargo/registry/src/github.com-1ecc6299db9ec823/version_check-0.9.3/src/channel.rs /Users/trietnguyen/.cargo/registry/src/github.com-1ecc6299db9ec823/version_check-0.9.3/src/date.rs
+
+/Users/trietnguyen/Documents/Blockchain Development/NEAR_NOV/tokensale/contract/target/rls/debug/deps/libversion_check-022cfc20129296c9.rlib: /Users/trietnguyen/.cargo/registry/src/github.com-1ecc6299db9ec823/version_check-0.9.3/src/lib.rs /Users/trietnguyen/.cargo/registry/src/github.com-1ecc6299db9ec823/version_check-0.9.3/src/version.rs /Users/trietnguyen/.cargo/registry/src/github.com-1ecc6299db9ec823/version_check-0.9.3/src/channel.rs /Users/trietnguyen/.cargo/registry/src/github.com-1ecc6299db9ec823/version_check-0.9.3/src/date.rs
+
+/Users/trietnguyen/Documents/Blockchain Development/NEAR_NOV/tokensale/contract/target/rls/debug/deps/version_check-022cfc20129296c9.d: /Users/trietnguyen/.cargo/registry/src/github.com-1ecc6299db9ec823/version_check-0.9.3/src/lib.rs /Users/trietnguyen/.cargo/registry/src/github.com-1ecc6299db9ec823/version_check-0.9.3/src/version.rs /Users/trietnguyen/.cargo/registry/src/github.com-1ecc6299db9ec823/version_check-0.9.3/src/channel.rs /Users/trietnguyen/.cargo/registry/src/github.com-1ecc6299db9ec823/version_check-0.9.3/src/date.rs
+
+/Users/trietnguyen/.cargo/registry/src/github.com-1ecc6299db9ec823/version_check-0.9.3/src/lib.rs:
+/Users/trietnguyen/.cargo/registry/src/github.com-1ecc6299db9ec823/version_check-0.9.3/src/version.rs:
+/Users/trietnguyen/.cargo/registry/src/github.com-1ecc6299db9ec823/version_check-0.9.3/src/channel.rs:
+/Users/trietnguyen/.cargo/registry/src/github.com-1ecc6299db9ec823/version_check-0.9.3/src/date.rs:
