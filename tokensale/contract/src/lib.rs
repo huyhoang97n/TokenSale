@@ -214,6 +214,7 @@ impl Contract {
     }
 
     pub fn set_token_price(&mut self, new_price: Balance) {
+        self.only_owner();
         self.token_price = new_price; 
     }
 
